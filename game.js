@@ -53,14 +53,14 @@ $(document).keypress(function() {
   }
 });
 
-$("body").click(function() {
-  if (!started) {
-    $("h1").text("Level " + level);
-    nextSequence();
-    started = true;
+// $("body").click(function() {
+//   if (!started) {
+//     $("h1").text("Level " + level);
+//     nextSequence();
+//     started = true;
 
-  }
-});
+//   }
+// });
 
 function checkAnswer(currentLevel)
 {

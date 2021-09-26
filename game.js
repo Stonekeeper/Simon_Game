@@ -42,7 +42,7 @@ function animatePress(currentColor) {
     $("." + currentColor).removeClass("pressed");
   }, 100);
 }
-$(document).on('tap keypress', function() {
+$(document).on('dblclick keypress', function() {
   if (!started) {
     $("h1").text("Level " + level);
     nextSequence();
